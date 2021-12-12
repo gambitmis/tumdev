@@ -1,0 +1,21 @@
+version: '3'
+services:
+   nodejs-jwt:
+      image: nodejs-jwt
+      build:
+         context: .
+         dockerfile: dockerfile
+      restart: unless-stopped
+      #stdin_open: true
+      #tty: true
+      #command: sh
+      environment:
+        - MONGO_URI=mongodb+srv://tuxtum:2Vergeten2@demo.i7wp4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+        - TOKEN_KEY=ollo
+      ports:
+         - ${API_PORT}:${API_PORT}
+      networks:
+         - demo
+networks:
+   demo:
+      external: true   

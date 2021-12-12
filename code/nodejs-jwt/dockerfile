@@ -4,6 +4,10 @@ RUN apk add --no-cache git
 
 WORKDIR /app
 
-EXPOSE 3001
+COPY . .
 
-CMD [ "sh" ]
+RUN npm install
+
+CMD [ "node","index.js" ]
+
+#EXPOSE 4001
