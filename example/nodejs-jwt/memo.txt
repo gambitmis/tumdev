@@ -1,0 +1,8 @@
+
+  "first_name": "chalermsak",
+  "last_name": "krourwan",
+  "email": "gambitmis@gmail.com",
+  "password": "$2a$10$/ZxSDAHrQd3Qb5o6dAIUuu6mOxeeghU4UeAWz.kfSFbR.Zf5d5VyK",
+  "_id": "61b5c709aebf8872aaefe8df",
+  "__v": 0,
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjFiNWM3MDlhZWJmODg3MmFhZWZlOGRmIiwiZW1haWwiOiJnYW1iaXRtaXNAZ21haWwuY29tIiwiaWF0IjoxNjM5MzAyOTIxLCJleHAiOjE2MzkzMTAxMjF9.ZbSElBNoRcNlKzCZ0wOK7tSeyZJzFx155uNOCC-nkPU"
