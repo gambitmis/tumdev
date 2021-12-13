@@ -1,3 +1,10 @@
+const debug = process.env; 
+
+if (debug){
+    console.log(debug);
+}
+
+
 const http = require('http');
 const app = require('./app');
 const server = http.createServer(app);

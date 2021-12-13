@@ -10,8 +10,10 @@ services:
       #tty: true
       #command: sh
       environment:
-        - MONGO_URI=mongodb+srv://tuxtum:2Vergeten2@demo.i7wp4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
-        - TOKEN_KEY=ollo
+        - MONGO_URI=${MONGO_URI}
+        - TOKEN_KEY=${TOKEN_KEY}
+        - API_PORT=${API_PORT}
+        - DEBUG=true
       ports:
          - ${API_PORT}:${API_PORT}
       networks:
